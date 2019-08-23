@@ -107,11 +107,11 @@ plt.show()
 # 
 # =============================================================================
 plt.figure('Determination of the rate constant')
-ang_35_t0 = np.average(ang_35_0[0])
+ang_35_t0 = np.average(ang_35_0[0])/2
 ang_35_t0_err = np.std(ang_35_0[0])/2
 ang_35_tf = np.average(ang_35_f[0])
 ang_35_tf_err = np.std(ang_35_f[0])/2
-ang_rt_t0 = np.average(ang_rt_0[0])
+ang_rt_t0 = np.average(ang_rt_0[0])/2
 ang_rt_t0_err = np.std(ang_rt_0[0])/2
 ang_rt_tf = np.average(ang_rt_f[0])
 ang_rt_tf_err = np.std(ang_rt_f[0])/2
